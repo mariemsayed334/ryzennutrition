@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 20px 40px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="ريزين.svg" alt="Coming Soon Image" />
+
+        <div class="overlay">
+            <h1>Coming Soon</h1>
+            <p>We are working on something awesome 🚀</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
