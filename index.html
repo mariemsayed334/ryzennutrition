@@ -1,65 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coming Soon</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ryzenn Nutrition</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: black;
+    }
 
-        .container {
-            position: relative;
-            height: 100vh;
-            width: 100%;
-            overflow: hidden;
-        }
+    .container {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-        .container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+    .container img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; /* 👈 أهم تعديل */
+    }
 
-        .overlay {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            text-align: center;
-            background: rgba(0, 0, 0, 0.4);
-            padding: 20px 40px;
-            border-radius: 10px;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 40px;
-        }
-
-        p {
-            margin-top: 10px;
-            font-size: 18px;
-        }
-    </style>
+    .overlay {
+      position: absolute;
+      bottom: 20px;
+      text-align: center;
+      color: white;
+      width: 100%;
+      font-size: 16px;
+    }
+  </style>
 </head>
 
 <body>
 
-    <div class="container">
-        <img src="ريزين.svg" alt="Coming Soon Image" />
+  <div class="container">
+    <img src="hero.png" alt="Ryzenn Nutrition Logo" />
 
-        <div class="overlay">
-            <h1>Coming Soon</h1>
-            <p>We are working on something awesome 🚀</p>
-        </div>
+    <div class="overlay">
+      Coming Soon 🚀
     </div>
+  </div>
 
 </body>
-
 </html>
